@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="DevSecOps Toolchain (Open Source)" id="devsecops-toolchain">
+    <mxGraphModel dx="1039" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AXFzmFwYX8ql2ruEuAgw-18" value="Pre-commit" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=1 1;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="480" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="AXFzmFwYX8ql2ruEuAgw-19" value="Secrets Scanning" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.addon;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
