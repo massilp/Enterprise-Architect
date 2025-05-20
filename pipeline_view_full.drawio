@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Pipeline View" id="0">
+    <mxGraphModel dx="1559" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="foeVLpMqoLwaiVGNEbr--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foeVLpMqoLwaiVGNEbr--1" target="foeVLpMqoLwaiVGNEbr--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--1" value="Pipeline&lt;div&gt;Init&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foeVLpMqoLwaiVGNEbr--2" target="foeVLpMqoLwaiVGNEbr--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--2" value="Secret&amp;nbsp;&lt;div&gt;Scanning&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foeVLpMqoLwaiVGNEbr--4" target="foeVLpMqoLwaiVGNEbr--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--4" value="SAST" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foeVLpMqoLwaiVGNEbr--6" target="foeVLpMqoLwaiVGNEbr--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--6" value="SCA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--8" value="Container&lt;div&gt;Scanning&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foeVLpMqoLwaiVGNEbr--11" target="foeVLpMqoLwaiVGNEbr--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--11" value="Pipeline&lt;div&gt;Init&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="foeVLpMqoLwaiVGNEbr--13" target="foeVLpMqoLwaiVGNEbr--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--13" value="Secret&amp;nbsp;&lt;div&gt;Scanning&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--15" value="IaC&lt;div&gt;Scanning&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="foeVLpMqoLwaiVGNEbr--19" value="" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=1 1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80.25" y="20" width="1549.75" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
